@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ count }}</p>
+    <p class="font-bold">{{ count }}</p>
     <button @click="addCount">Add</button>
     <NuxtPage />
   </div>
