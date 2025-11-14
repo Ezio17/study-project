@@ -8,6 +8,12 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss'],
 
+  runtimeConfig: {
+    public: {
+      PORT: process.env.PORT || '3000',
+    },
+  },
+
   alias: {
     '@': path.resolve(__dirname, 'src'),
     '@root': path.resolve(__dirname, './'),
